@@ -519,7 +519,9 @@ demo.config = {
         'images/IMG_4450.jpg',
         'images/white.jpg',
         'images/boat.jpg',
-        'images/stripes.jpg'
+        'images/stripes.jpg',
+        'images/noise.jpg',
+        'images/Spectral.jpg'
     ]
 };
 demo.iteration = 0;
