@@ -514,22 +514,12 @@ demo.config = {
     images: [
         'images/chameleon.png',
         'images/tower.jpg',
-        'images/3x4.png',
-        'images/6x5.png',
-        'images/12x10.png',
-        'images/70x70.png',
-        'images/200x100.png',
         'images/HJocean.png',
         'images/IMG_4445.jpg',
-        'images/white_building_in_field_by_mslash67.jpg',
-        'images/butterfly.png',
-        'images/1000x300.jpg',
-        'images/1000x500.jpg',
-        'images/1600x1200.jpg',
-        'https://cdn.hyperdev.com/us-east-1%3A095124f7-7022-4119-9d6a-68fd1e3dd7ef%2Fchameleon.png',
-        'https://cdn.hyperdev.com/us-east-1%3A095124f7-7022-4119-9d6a-68fd1e3dd7ef%2Fbutterfly.jpg',
-        'https://cdn.hyperdev.com/us-east-1%3A095124f7-7022-4119-9d6a-68fd1e3dd7ef%2Fbamboo.jpg',
-        'https://cdn.hyperdev.com/us-east-1%3A095124f7-7022-4119-9d6a-68fd1e3dd7ef%2Fanimals.jpg'
+        'images/IMG_4450.jpg',
+        'images/white.jpg',
+        'images/boat.jpg',
+        'images/stripes.jpg'
     ]
 };
 demo.iteration = 0;
