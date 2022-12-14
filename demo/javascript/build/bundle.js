@@ -509,7 +509,7 @@ demo.config = {
         field: 'rgb',
         actualSize: true
     },
-    seamColor: "#32cd32",
+    seamColor: "red",
     autoIterate: false,
     images: [
         'images/chameleon.png',
@@ -550,6 +550,12 @@ demo.findSeam = function (ctx) {
     }
     return demo.currentSeam;
 };
+
+demo.imageSize = function() {
+    var realWidth = demo.canvas.width;
+    var realHeight =demo.canvas.height;
+    alert("width=" + realWidth + ", " + "height=" + realHeight);
+}
 
 demo.removeSeam = function (options) {
     options = options || {};
@@ -659,6 +665,10 @@ key('p', function () {
 
 key('esc', function () {
     demo.reset();
+});
+
+key('U', function () {
+    demo.imageSize();
 });
 
 demo.reDraw = function (field) {
