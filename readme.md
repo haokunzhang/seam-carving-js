@@ -1,10 +1,24 @@
-# Seam Carving JS
+# **CPSC 5416**: Content- Aware Image Resizing by Seam Carving on Javascript
 
+### Group Member
+1. [Wang, Pengyu](https://github.com/PengyuW007), 0425157
+2. [Zhang, Haokun](https://github.com/haokunzhang), 0424660
+3. [Zhu, Ziping](https://github.com/0v0-QAQ), 0422426
+
+### Description
 Javascript implementation of a content-aware image resizing algorithm called seam carving. <a href="https://en.wikipedia.org/wiki/Seam_carving">Seam carving</a> crops an image by removing the "least important" pixels in an image. An "unimportant" pixel is defined as a pixel which is very similar to its surrounding pixels. A seam is a one pixel column in the image which can zig-zag between adjancent columns.
 
 ![image](https://user-images.githubusercontent.com/1690659/64417276-b1e5b480-d090-11e9-82ac-c3cfd79b9a85.png)
+
 ![image](https://user-images.githubusercontent.com/1690659/64417322-c2962a80-d090-11e9-8415-ffec76231ea1.png)
 
+### [Repository](https://github.com/haokunzhang/seam-carving-js)
+
+### [Presentation](https://docs.google.com/presentation/d/1baefUtgnmUMQzuKE2jryYe5W-C1SlbvDpIwdUpSS4Gk/edit#slide=id.p)
+
+### Documents
+1. [Google Doc Paper, (need access)](https://docs.google.com/document/d/1Ui7vCC1XvcsmRQbe1Od_U7_W2YEoPmc7rzNO8YZXfNg/edit)
+2. [Shai Avidan and Ariel Shamir's Algorithm](https://perso.crans.org/frenoy/matlab2012/seamcarving.pdf)
 
 ## Install
 
