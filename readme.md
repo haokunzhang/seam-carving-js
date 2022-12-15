@@ -6,7 +6,11 @@
 3. [Zhu, Ziping](https://github.com/0v0-QAQ), 0422426
 
 ### Description
-Javascript implementation of a content-aware image resizing algorithm called seam carving. <a href="https://en.wikipedia.org/wiki/Seam_carving">Seam carving</a> crops an image by removing the "least important" pixels in an image. An "unimportant" pixel is defined as a pixel which is very similar to its surrounding pixels. A seam is a one pixel column in the image which can zig-zag between adjancent columns.
+Javascript implementation of a content-aware image resizing algorithm called seam carving. <a href="https://en.wikipedia.org/wiki/Seam_carving">Seam carving</a> 
+crops an image by removing the "least important" pixels in an image. 
+An "unimportant" pixel is defined as a pixel which is very similar to its surrounding pixels. 
+A seam is a one pixel column in the image which can zig-zag between adjacent columns. 
+We use [Seam Carving System](https://github.com/mfbx9da4/seam-carving-js) as the prototype, then we added some new features to make it clearer to show the process.
 
 ![image](https://user-images.githubusercontent.com/1690659/64417276-b1e5b480-d090-11e9-82ac-c3cfd79b9a85.png)
 
@@ -50,7 +54,7 @@ Everyone
 ## Run demo
 
     npm install -g local-web-server
-    ws # navigate to http://localhost:8000
+    ws # navigate to http://localhost:63342
 
 ## Current optimizations
 - When we remove a seam not all pixels are recalculated instead only pixels either side of the seam are enqueued to be recalculated. If the min sum of the affected pixel has not changed we need not enqueue it's children.
