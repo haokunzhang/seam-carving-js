@@ -22,7 +22,8 @@ We use [Seam Carving System](https://github.com/mfbx9da4/seam-carving-js) as the
 
 ### Documents
 1. [Google Doc Paper, (need access)](https://docs.google.com/document/d/1Ui7vCC1XvcsmRQbe1Od_U7_W2YEoPmc7rzNO8YZXfNg/edit)
-2. [Shai Avidan and Ariel Shamir's Algorithm](https://perso.crans.org/frenoy/matlab2012/seamcarving.pdf)
+2. [CPSC 5416 Content-Aware Image Resizing by Seam Carving]()
+3. [Shai Avidan and Ariel Shamir's Algorithm](https://perso.crans.org/frenoy/matlab2012/seamcarving.pdf)
 
 ## Install
 
